@@ -1,0 +1,10 @@
+syntax="proto3";
+
+package main;
+
+option go_package = "./main";
+
+message Book {
+    string name = 1;
+    int32 isbn = 2;
+}
